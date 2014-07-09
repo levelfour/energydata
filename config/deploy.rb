@@ -2,10 +2,10 @@
 lock '3.2.1'
 
 set :application, 'ENERGY_DATA'
-set :repo_url, 'git@github.com:levelfour/EnergyDataSimulationChallenge.git'
+set :repo_url, 'git@github.com:levelfour/energydata.git'
 
 # Default branch is :master
-set :branch, :'levelfour/challenge3'
+set :branch, :master
 
 # Default deploy_to directory is /var/www/my_app
 set :deploy_to, '/home/levelfour/www/energy'
