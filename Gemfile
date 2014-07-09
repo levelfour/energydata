@@ -57,3 +57,6 @@ group :deployment do
   gem 'capistrano-rbenv'
   gem 'capistrano-bundler'
 end
+
+gem 'execjs'
+gem 'therubyracer'
